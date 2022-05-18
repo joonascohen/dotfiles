@@ -1,4 +1,5 @@
 # List of programs installed (Mac)
+Homebrew
 git 
 GNU stow
 Iterm2
