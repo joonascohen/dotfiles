@@ -1,0 +1,16 @@
+require "user.plugins"
+require "user.options"
+require "user.nvim-tree"
+require "user.colorscheme"
+require "user.keymaps"
+require "user.telescope"
+require "user.cmp"
+require "user.lsp"
+require "user.whichkey"
+require "user.bufferline"
+require("bufferline").setup{}
+require "user.lualine"
+require('nvim-autopairs').setup{}
+require "user.tree-sitter"
+require "user.indent"
+-- require "user.harpoon"
