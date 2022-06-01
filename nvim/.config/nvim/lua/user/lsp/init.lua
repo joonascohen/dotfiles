@@ -2,7 +2,7 @@ local lspconfig = require("lspconfig")
 
 -- omnisharp setup
 local pid = vim.fn.getpid()
-local omnisharp_bin = "/Users/joonascohen/.local/share/nvim/lsp_servers/omnisharp/omnisharp"
+local omnisharp_bin = "/home/joonas/.local/share/nvim/lsp_servers/omnisharp/omnisharp/OmniSharp"
 
 
 lspconfig.sumneko_lua.setup{
@@ -34,14 +34,9 @@ lspconfig.html.setup{
         print('HTML LSP is attached')
     end,
 }
--- lspconfig.omnisharp.setup{
---     cmd = { omnisharp_bin, "--languageserver" , "--hostPID", tostring(pid) };
---     on_attach = function ()
---         print('omnisharp is attached')
---     end,
--- }
-lspconfig.csharp_ls.setup{
+lspconfig.omnisharp.setup{
+    cmd = { omnisharp_bin, "--languageserver" , "--hostPID", tostring(pid) };
     on_attach = function ()
-        print('csharp_ls is attached')
+        print('omnisharp is attached')
     end
 }
