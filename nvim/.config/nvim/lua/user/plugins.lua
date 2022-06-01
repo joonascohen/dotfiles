@@ -97,13 +97,11 @@ use {
                     print('HTML LSP is attached')
                 end,
             }
---            lspconfig.rome.setup{
---                on_attach = function ()
---                   print('Rome is attached')
---                   vim.keymap.set("n", "K", vim.lsp.buf.hover, {buffer= 0})
---                   vim.keymap.set("n", "gd", vim.lsp.buf.definition, {buffer= 0})
---                end,
---           }
+            lspconfig.gopls.setup{
+                    on_attach = function ()
+                        print('gopls is attached')
+                    end
+                }
         end
     }
 }
