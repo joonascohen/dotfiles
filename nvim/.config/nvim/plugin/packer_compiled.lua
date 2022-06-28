@@ -161,7 +161,7 @@ _G.packer_plugins = {
     url = "https://github.com/williamboman/nvim-lsp-installer"
   },
   ["nvim-lspconfig"] = {
-    config = { "\27LJ\2\nª\1\0\0\6\0\f\0\0236\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\4\0006\4\0\0009\4\5\0049\4\6\0049\4\a\0045\5\b\0B\0\5\0016\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\t\0006\4\0\0009\4\5\0049\4\6\0049\4\n\0045\5\v\0B\0\5\1K\0\1\0\1\0\1\vbuffer\3\0\15definition\agd\1\0\1\vbuffer\3\0\nhover\bbuf\blsp\6K\6n\bset\vkeymap\bvim \2\0\0\6\0\17\0%6\0\0\0'\2\1\0B\0\2\0016\0\2\0009\0\3\0009\0\4\0'\2\5\0'\3\6\0006\4\2\0009\4\a\0049\4\b\0049\4\t\0045\5\n\0B\0\5\0016\0\2\0009\0\3\0009\0\4\0'\2\5\0'\3\v\0006\4\2\0009\4\a\0049\4\b\0049\4\f\0045\5\r\0B\0\5\0016\0\2\0009\0\3\0009\0\4\0'\2\5\0'\3\14\0006\4\2\0009\4\a\0049\4\b\0049\4\15\0045\5\16\0B\0\5\1K\0\1\0\1\0\1\vbuffer\3\0\15definition\agd\1\0\1\vbuffer\3\0\20type_definition\agt\1\0\1\vbuffer\3\0\nhover\bbuf\blsp\6K\6n\bset\vkeymap\bvim\29tsserver LSP is attached\nprint2\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\25HTML LSP is attached\nprint/\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\22gopls is attached\nprintÆ\2\1\0\b\0\25\0*6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\0016\0\0\0'\2\3\0B\0\2\0029\1\4\0009\1\2\0015\3\f\0005\4\n\0005\5\b\0005\6\6\0005\a\5\0=\a\a\6=\6\t\5=\5\v\4=\4\r\0033\4\14\0=\4\15\3B\1\2\0019\1\16\0009\1\2\0015\3\18\0003\4\17\0=\4\15\3B\1\2\0019\1\19\0009\1\2\0015\3\21\0003\4\20\0=\4\15\3B\1\2\0019\1\22\0009\1\2\0015\3\24\0003\4\23\0=\4\15\3B\1\2\1K\0\1\0\1\0\0\0\ngopls\1\0\0\0\thtml\1\0\0\0\rtsserver\14on_attach\0\rsettings\1\0\0\bLua\1\0\0\16diagnostics\1\0\0\fglobals\1\0\0\1\2\0\0\bvim\16sumneko_lua\14lspconfig\nsetup\23nvim-lsp-installer\frequire\0" },
+    config = { "\27LJ\2\nª\1\0\0\6\0\f\0\0236\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\4\0006\4\0\0009\4\5\0049\4\6\0049\4\a\0045\5\b\0B\0\5\0016\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\t\0006\4\0\0009\4\5\0049\4\6\0049\4\n\0045\5\v\0B\0\5\1K\0\1\0\1\0\1\vbuffer\3\0\15definition\agd\1\0\1\vbuffer\3\0\nhover\bbuf\blsp\6K\6n\bset\vkeymap\bvim \2\0\0\6\0\17\0%6\0\0\0'\2\1\0B\0\2\0016\0\2\0009\0\3\0009\0\4\0'\2\5\0'\3\6\0006\4\2\0009\4\a\0049\4\b\0049\4\t\0045\5\n\0B\0\5\0016\0\2\0009\0\3\0009\0\4\0'\2\5\0'\3\v\0006\4\2\0009\4\a\0049\4\b\0049\4\f\0045\5\r\0B\0\5\0016\0\2\0009\0\3\0009\0\4\0'\2\5\0'\3\14\0006\4\2\0009\4\a\0049\4\b\0049\4\15\0045\5\16\0B\0\5\1K\0\1\0\1\0\1\vbuffer\3\0\15definition\agd\1\0\1\vbuffer\3\0\20type_definition\agt\1\0\1\vbuffer\3\0\nhover\bbuf\blsp\6K\6n\bset\vkeymap\bvim\29tsserver LSP is attached\nprint2\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\25HTML LSP is attached\nprint/\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\22gopls is attached\nprintä\2\1\0\b\0\26\0.6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\0016\0\0\0'\2\3\0B\0\2\0029\1\4\0009\1\2\0015\3\f\0005\4\n\0005\5\b\0005\6\6\0005\a\5\0=\a\a\6=\6\t\5=\5\v\4=\4\r\0033\4\14\0=\4\15\3B\1\2\0019\1\16\0009\1\2\0015\3\18\0003\4\17\0=\4\15\3B\1\2\0019\1\19\0009\1\2\0015\3\21\0003\4\20\0=\4\15\3B\1\2\0019\1\22\0009\1\2\0015\3\24\0003\4\23\0=\4\15\3B\1\2\0019\1\25\0009\1\2\0014\3\0\0B\1\2\1K\0\1\0\18rust_analyzer\1\0\0\0\ngopls\1\0\0\0\thtml\1\0\0\0\rtsserver\14on_attach\0\rsettings\1\0\0\bLua\1\0\0\16diagnostics\1\0\0\fglobals\1\0\0\1\2\0\0\bvim\16sumneko_lua\14lspconfig\nsetup\23nvim-lsp-installer\frequire\0" },
     loaded = true,
     path = "/home/joonas/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
@@ -196,10 +196,20 @@ _G.packer_plugins = {
     path = "/home/joonas/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["presence.nvim"] = {
+    loaded = true,
+    path = "/home/joonas/.local/share/nvim/site/pack/packer/start/presence.nvim",
+    url = "https://github.com/andweeb/presence.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/joonas/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/joonas/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["which-key.nvim"] = {
     config = { "\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14which-key\frequire\0" },
@@ -210,18 +220,18 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim-lspconfig
-time([[Config for nvim-lspconfig]], true)
-try_loadstring("\27LJ\2\nª\1\0\0\6\0\f\0\0236\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\4\0006\4\0\0009\4\5\0049\4\6\0049\4\a\0045\5\b\0B\0\5\0016\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\t\0006\4\0\0009\4\5\0049\4\6\0049\4\n\0045\5\v\0B\0\5\1K\0\1\0\1\0\1\vbuffer\3\0\15definition\agd\1\0\1\vbuffer\3\0\nhover\bbuf\blsp\6K\6n\bset\vkeymap\bvim \2\0\0\6\0\17\0%6\0\0\0'\2\1\0B\0\2\0016\0\2\0009\0\3\0009\0\4\0'\2\5\0'\3\6\0006\4\2\0009\4\a\0049\4\b\0049\4\t\0045\5\n\0B\0\5\0016\0\2\0009\0\3\0009\0\4\0'\2\5\0'\3\v\0006\4\2\0009\4\a\0049\4\b\0049\4\f\0045\5\r\0B\0\5\0016\0\2\0009\0\3\0009\0\4\0'\2\5\0'\3\14\0006\4\2\0009\4\a\0049\4\b\0049\4\15\0045\5\16\0B\0\5\1K\0\1\0\1\0\1\vbuffer\3\0\15definition\agd\1\0\1\vbuffer\3\0\20type_definition\agt\1\0\1\vbuffer\3\0\nhover\bbuf\blsp\6K\6n\bset\vkeymap\bvim\29tsserver LSP is attached\nprint2\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\25HTML LSP is attached\nprint/\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\22gopls is attached\nprintÆ\2\1\0\b\0\25\0*6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\0016\0\0\0'\2\3\0B\0\2\0029\1\4\0009\1\2\0015\3\f\0005\4\n\0005\5\b\0005\6\6\0005\a\5\0=\a\a\6=\6\t\5=\5\v\4=\4\r\0033\4\14\0=\4\15\3B\1\2\0019\1\16\0009\1\2\0015\3\18\0003\4\17\0=\4\15\3B\1\2\0019\1\19\0009\1\2\0015\3\21\0003\4\20\0=\4\15\3B\1\2\0019\1\22\0009\1\2\0015\3\24\0003\4\23\0=\4\15\3B\1\2\1K\0\1\0\1\0\0\0\ngopls\1\0\0\0\thtml\1\0\0\0\rtsserver\14on_attach\0\rsettings\1\0\0\bLua\1\0\0\16diagnostics\1\0\0\fglobals\1\0\0\1\2\0\0\bvim\16sumneko_lua\14lspconfig\nsetup\23nvim-lsp-installer\frequire\0", "config", "nvim-lspconfig")
-time([[Config for nvim-lspconfig]], false)
--- Config for: Comment.nvim
-time([[Config for Comment.nvim]], true)
-try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")
-time([[Config for Comment.nvim]], false)
 -- Config for: which-key.nvim
 time([[Config for which-key.nvim]], true)
 try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14which-key\frequire\0", "config", "which-key.nvim")
 time([[Config for which-key.nvim]], false)
+-- Config for: Comment.nvim
+time([[Config for Comment.nvim]], true)
+try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")
+time([[Config for Comment.nvim]], false)
+-- Config for: nvim-lspconfig
+time([[Config for nvim-lspconfig]], true)
+try_loadstring("\27LJ\2\nª\1\0\0\6\0\f\0\0236\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\4\0006\4\0\0009\4\5\0049\4\6\0049\4\a\0045\5\b\0B\0\5\0016\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\t\0006\4\0\0009\4\5\0049\4\6\0049\4\n\0045\5\v\0B\0\5\1K\0\1\0\1\0\1\vbuffer\3\0\15definition\agd\1\0\1\vbuffer\3\0\nhover\bbuf\blsp\6K\6n\bset\vkeymap\bvim \2\0\0\6\0\17\0%6\0\0\0'\2\1\0B\0\2\0016\0\2\0009\0\3\0009\0\4\0'\2\5\0'\3\6\0006\4\2\0009\4\a\0049\4\b\0049\4\t\0045\5\n\0B\0\5\0016\0\2\0009\0\3\0009\0\4\0'\2\5\0'\3\v\0006\4\2\0009\4\a\0049\4\b\0049\4\f\0045\5\r\0B\0\5\0016\0\2\0009\0\3\0009\0\4\0'\2\5\0'\3\14\0006\4\2\0009\4\a\0049\4\b\0049\4\15\0045\5\16\0B\0\5\1K\0\1\0\1\0\1\vbuffer\3\0\15definition\agd\1\0\1\vbuffer\3\0\20type_definition\agt\1\0\1\vbuffer\3\0\nhover\bbuf\blsp\6K\6n\bset\vkeymap\bvim\29tsserver LSP is attached\nprint2\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\25HTML LSP is attached\nprint/\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\22gopls is attached\nprintä\2\1\0\b\0\26\0.6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\0016\0\0\0'\2\3\0B\0\2\0029\1\4\0009\1\2\0015\3\f\0005\4\n\0005\5\b\0005\6\6\0005\a\5\0=\a\a\6=\6\t\5=\5\v\4=\4\r\0033\4\14\0=\4\15\3B\1\2\0019\1\16\0009\1\2\0015\3\18\0003\4\17\0=\4\15\3B\1\2\0019\1\19\0009\1\2\0015\3\21\0003\4\20\0=\4\15\3B\1\2\0019\1\22\0009\1\2\0015\3\24\0003\4\23\0=\4\15\3B\1\2\0019\1\25\0009\1\2\0014\3\0\0B\1\2\1K\0\1\0\18rust_analyzer\1\0\0\0\ngopls\1\0\0\0\thtml\1\0\0\0\rtsserver\14on_attach\0\rsettings\1\0\0\bLua\1\0\0\16diagnostics\1\0\0\fglobals\1\0\0\1\2\0\0\bvim\16sumneko_lua\14lspconfig\nsetup\23nvim-lsp-installer\frequire\0", "config", "nvim-lspconfig")
+time([[Config for nvim-lspconfig]], false)
 if should_profile then save_profiles() end
 
 end)

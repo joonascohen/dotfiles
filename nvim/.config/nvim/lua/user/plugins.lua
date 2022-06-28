@@ -47,7 +47,7 @@ use "windwp/nvim-autopairs"
 -- Colorscheme
 use 'navarasu/onedark.nvim'
 use { "ellisonleao/gruvbox.nvim" }
-
+use 'folke/tokyonight.nvim'
 
 -- Telescope
 use {
@@ -102,6 +102,7 @@ use {
                         print('gopls is attached')
                     end
                 }
+            lspconfig.rust_analyzer.setup{}
         end
     }
 }
@@ -155,6 +156,9 @@ use {
 -- harpoon
 use 'ThePrimeagen/harpoon'
 use 'nvim-lua/plenary.nvim'
+
+-- Discord Rich Presence
+use 'andweeb/presence.nvim'
 
 	if PACKER_BOOTSTRAP then
     require("packer").sync()
